@@ -94,7 +94,7 @@ function App() {
           {searchResults.map((item) => (
             <Col span={4}>
               <div>
-                <Card hoverable cover={<img src={item.cover}></img>}>
+                <Card hoverable cover={<img className='game-cover' src={item.cover}></img>}>
                   <Meta  title={item.title} ></Meta>
                   {/* <img className="game-cover" src={item.cover}></img> */}
                 </Card>
